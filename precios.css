@@ -1,0 +1,60 @@
+body{
+    background: black;
+    color: white;
+}
+.celular{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: justify;
+}
+.columna{
+    background:rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 4px grey;
+    width: 18%;
+    box-sizing: border-box;
+}
+img{
+    width: 160px;
+    height: 160px;
+}
+.precio{
+    font-size: 20px;
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.carrito{
+    background-color: green ;
+    color: black;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.carrito:hover{
+    background: greenyellow;
+}
+@media (max-width: 1070px){
+.columna{
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+}
+@media (max-width: 500px){
+    .columna{
+        width: 96%;
+        margin-bottom: 10px;
+    }
+}

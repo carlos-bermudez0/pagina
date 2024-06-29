@@ -1,0 +1,28 @@
+body{
+    background: pink;
+    color: black;
+}
+p{
+    text-align: justify;
+    margin: auto;
+    padding:0% 20% 0% 0%;
+}
+.cel{
+    text-align: center;
+    background: gray;
+    color: green;
+    margin:1% 73% 0% 3%;
+    padding: 1% 0% 1% 0%;
+    border-radius: 15px;
+    box-shadow: 7px 7px 4px grey;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.black{
+    color: black;
+    text-align: justify;
+}
